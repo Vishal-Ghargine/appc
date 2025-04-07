@@ -245,6 +245,3 @@ if st.button("Predict"):
     y_pred = best_model.predict(X_test)
     st.text(classification_report(y_test, y_pred))
 
-!pip install streamlit
-!pip install pyngrok
-!pip install streamlit-authenticator
